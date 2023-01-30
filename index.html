@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task List</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="shortcut icon" href="tasklist.ico" type="image/x-icon">
+
+</head>
+<body>
+	<aside>
+		<div class="content">
+		  <span id="hours">00</span>
+		  <span>:</span>
+		  <span id="minutes">00</span>
+		  <span>:</span>
+		  <span id="seconds">00</span>
+		  <span id="session">AM</span>
+	  </div>
+	  <div class="date" id="date">
+		ERROR SHOWING THE DATE <br>
+		TRY CONTACTING TO THE OWNER
+	</div>
+	  </aside>
+	  <div class="imp">
+	<header>
+		
+		  
+		<h1>Task List</h1>
+		<form id="new-task-form" autocomplete="off">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="What do you have planned?" />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="Add task" />
+		</form>
+	</header>
+	<main>
+		<section class="task-list">
+			<h2>Tasks</h2>
+
+			<div id="tasks">
+
+			</div>
+		</section>
+	</main>
+<script src="main.js"></script>
+<script src="clock.js"></script>
+</div>
+</body>
+</html>
